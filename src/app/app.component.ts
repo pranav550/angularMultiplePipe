@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularMultiplePipes';
+
+  dob = new Date(1990,5,29)
 }
